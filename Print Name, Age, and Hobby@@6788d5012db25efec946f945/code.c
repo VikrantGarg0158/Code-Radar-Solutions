@@ -9,8 +9,8 @@ int main() {
     char Hobby[100];
     scanf("%c", &Hobby);
 
-    printf("Name: %c", name);
-    printf("/nAge: %d"; age);
-    printf("/nHobby: %c"; Hobby);
+    printf("Name: %c\n", name);
+    printf("Age: %d\n"; age);
+    printf("Hobby: %c"; Hobby);
     return 0;
 }
