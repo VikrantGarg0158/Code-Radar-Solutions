@@ -10,7 +10,7 @@ int main() {
         printf("digit");
     }
     else if ((ch>='a' && ch<='z') || (ch>='A' && ch<='Z')) {
-        printf("Constant");
+        printf("Consonant");
     }
     else {
         printf("special character");
