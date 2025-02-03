@@ -19,7 +19,7 @@ int main() {
         printf("Fail");
     }
     else {
-        printf("Invalid garde")
+        printf("Invalid garde");
     }
     return 0;
 }
