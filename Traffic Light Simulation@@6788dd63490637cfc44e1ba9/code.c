@@ -4,16 +4,16 @@ int main() {
     char x;
     scanf("%c", &x);
     if (x=='R') {
-        printf("Stop")
+        printf("Stop");
     }
     else if (x=='G') {
-        printf("Go")
+        printf("Go");
     }
     else if (x=='Y') {
-        printf("Slow Down")
+        printf("Slow Down");
     }
     else {
-        printf("Invalid input")
+        printf("Invalid input");
     }
     return 0;
 }
