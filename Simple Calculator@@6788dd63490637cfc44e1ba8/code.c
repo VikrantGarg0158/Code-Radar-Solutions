@@ -13,7 +13,7 @@ int main() {
     else if (op=='*') {
         calculation = x*y;
     }
-    else if {
+    else if (op=='/') {
         if(y!=0) {
             calculation = x/y;
         }
