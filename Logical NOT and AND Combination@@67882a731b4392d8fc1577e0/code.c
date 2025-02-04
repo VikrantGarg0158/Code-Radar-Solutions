@@ -3,7 +3,7 @@
 int main() {
     int x,y;
     sacnf("%d %d", &x, &y);
-    if (x>y && y>x) {
+    if (!(x>y) && !(y>x)) {
         printf("True");
     }
     else {
