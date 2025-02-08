@@ -2,10 +2,8 @@
 
 int main() {
     int decimal_num;
-    printf("Enter a decimal integer: ");
     scanf("%d", &decimal_num);
 
-    printf("Binary representation: ");
     if (decimal_num == 0) {
         printf("0");
     } else {
