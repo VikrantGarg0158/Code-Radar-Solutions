@@ -3,7 +3,7 @@
 int main() {
     int number, position;
     scanf("%d %d, &number, &position");
-    number &= ~(1 << position);
-    printf("%d\n", number);
+    int result = number & ~(1 << position);
+    printf("%d\n", result);
     return 0;
 }
