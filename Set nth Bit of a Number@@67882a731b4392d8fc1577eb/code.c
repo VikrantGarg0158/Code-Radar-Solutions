@@ -2,7 +2,6 @@
 
 int main() {
     int number, n;
-    printf("Enter the number: ");
     scanf("%d", &number);
     printf("Enter the bit position (0-based): ");
     scanf("%d", &n);
