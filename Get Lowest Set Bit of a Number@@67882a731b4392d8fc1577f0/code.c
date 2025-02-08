@@ -1,14 +1,22 @@
 #include <stdio.h>
-#include <math.h>
 
-int findLowestSetBitPosition(int n) {
-    if (n == 0)
-        return -1;
-    return log2(n &-n);
-}
-int main {   
-    int n;
-    scanf("%d", &n);
-    printf("%d\n",findLowestSetBitPosition(n));
+int main() {
+    int num;
+    printf("Enter a number: ");
+    scanf("%d", &num);
+
+    if (num == 0) {
+        printf("The number is 0, it has no set bits.\n");
+        return 0;
+    }
+
+    int position = 0;
+    while ((num & 1) == 0) {
+        num >>= 1;
+        position++;
+    }
+
+    printf("Position of the lowest set bit: %d\n", position);
+
     return 0;
 }
