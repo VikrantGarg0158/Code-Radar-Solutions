@@ -8,7 +8,7 @@ int main() {
 
     int updated_number = number | (1 << n);
 
-    printf("Updated number: %d\n", updated_number);
+    printf("%d\n", updated_number);
 
     return 0;
 }
