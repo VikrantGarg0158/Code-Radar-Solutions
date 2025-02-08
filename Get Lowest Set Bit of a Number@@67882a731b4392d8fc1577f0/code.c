@@ -2,7 +2,6 @@
 
 int main() {
     int num;
-    printf("Enter a number: ");
     scanf("%d", &num);
 
     if (num == 0) {
@@ -16,7 +15,7 @@ int main() {
         position++;
     }
 
-    printf("Position of the lowest set bit: %d\n", position);
+    printf("%d\n", position);
 
     return 0;
 }
