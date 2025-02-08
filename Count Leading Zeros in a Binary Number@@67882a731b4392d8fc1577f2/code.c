@@ -13,9 +13,9 @@ int countLeadingZeros(unsigned int n) {
 
 int main() {
     unsigned int num;
-    printf("Enter a 32-bit integer: ");
+    // printf("Enter a 32-bit integer: ");
     scanf("%u", &num);
     int zeros = countLeadingZeros(num);
-    printf("Number of leading zeros: %d\n", zeros);
+    printf(zeros);
     return 0;
 }
