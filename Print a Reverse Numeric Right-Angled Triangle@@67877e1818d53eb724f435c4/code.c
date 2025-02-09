@@ -17,8 +17,4 @@ int main() {
     }
 
     return 0;
-}intf("\n");
-    }
-
-    return 0;
 }
