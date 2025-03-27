@@ -11,4 +11,11 @@ void trackPlayerRanks(int ranked[] , int n, int player[], int m, int result[]) {
             ranks[i] = ++rank;
         }
     }
-} 
+    int index = n-1;
+    for (int i = 0; i<m; i++){
+        while (index >= 0 && player[i] >= ranked[index]){
+            index--;
+        }
+        result[i] = (index == -1) ? 1 : ranks[index] + 1;
+    }
+}
